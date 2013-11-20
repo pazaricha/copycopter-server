@@ -20,6 +20,8 @@ group :assets do
   gem "yui-compressor"
 end
 
+gem 'unicorn'
+gem 'capistrano'
 
 group :development, :test do
   gem 'foreman', '0.40.0'
