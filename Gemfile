@@ -22,6 +22,8 @@ end
 
 gem 'unicorn'
 gem 'capistrano'
+gem 'rvm-capistrano'
+
 
 group :development, :test do
   gem 'foreman', '0.40.0'
