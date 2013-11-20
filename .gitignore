@@ -2,4 +2,6 @@ db/schema.rb
 log/*.log
 vendor/cache
 .rvmrc
+.ruby-version
+.ruby-gemset
 tmp/**/*

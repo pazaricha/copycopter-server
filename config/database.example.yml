@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: copycopter_development
+  pool: 5
+  username: fununa_copycopter
+  password:
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: copycopter_test
+  pool: 5
+  username: fununa_copycopter
+  password:
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: copycopter_production
+  pool: 5
+  username: fununa_copycopter
+  password: fununa_copycopter
