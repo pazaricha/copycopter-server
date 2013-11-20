@@ -6,7 +6,6 @@ server "copycopter.fununa.co.il", :web, :app, :db, primary: true
 set :application, "fununa-copycopter"
 set :user, "fununa"
 
-
 # server details
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
